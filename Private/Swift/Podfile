@@ -1,0 +1,8 @@
+platform :ios, '13.1'
+use_frameworks!
+
+target 'S3TransferUtilitySampleSwift' do
+  pod 'AWSMobileClient'
+  pod 'AWSS3'
+  pod 'AWSCore'
+end
